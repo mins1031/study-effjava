@@ -73,5 +73,5 @@
       * getType: getInstance와 같으나 생성할 클래스가 아닌 다른 클래스에 팩터리메서드를 정의할떄 쓴다.
       * newType: newInstance와 같으나 생성할 클래스가 아닌 다른 클래스에 팩터리메서드를 정의할떄 쓴다.
       * type : getType과 newType의 간결한 버전
-  + 보충할것.
+
       
