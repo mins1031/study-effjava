@@ -1,12 +1,16 @@
 package effective.item7;
 
+import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.EmptyStackException;
+import java.util.List;
 
 public class Stack {
     private Object[] elements;
     private int size;
     private static final int DEFAULT_CAPACITY = 16;
+    private List<String> list = new ArrayList<>();
 
     public Stack() {
         this.elements = new Object[DEFAULT_CAPACITY];
